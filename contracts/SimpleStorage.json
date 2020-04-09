@@ -1,0 +1,127 @@
+{
+  "abiDefinition": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "initialValue",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "caller",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Set",
+      "type": "event",
+      "signature": "0xfd28ec3ec2555238d8ad6f9faf3e4cd10e574ce7e7ef28b73caa53f9512f65b9"
+    },
+    {
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true,
+      "signature": "0x6d4ce63c"
+    },
+    {
+      "inputs": [],
+      "name": "increment",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xd09de08a"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x60fe47b1"
+    },
+    {
+      "inputs": [],
+      "name": "storedData",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true,
+      "signature": "0x2a1afcd9"
+    }
+  ],
+  "deployedAddress": "0x8bD3317Ac7a8cF2441D4D2121CCed8Cc9D5b8881",
+  "className": "SimpleStorage",
+  "args": [
+    100
+  ],
+  "gas": "auto",
+  "silent": false,
+  "track": true,
+  "deploy": true,
+  "realRuntimeBytecode": "6080604052348015600f57600080fd5b506004361060465760003560e01c80632a1afcd914604b57806360fe47b11460635780636d4ce63c14607f578063d09de08a146085575b600080fd5b6051608b565b60408051918252519081900360200190f35b607d60048036036020811015607757600080fd5b50356091565b005b605160d4565b607d60da565b60005481565b6000819055604080513381526020810183905281517ffd28ec3ec2555238d8ad6f9faf3e4cd10e574ce7e7ef28b73caa53f9512f65b9929181900390910190a150565b60005490565b60008054600101905556fea2646970667358221220d4f592ae122f6f75c4",
+  "realArgs": [],
+  "fromIndex": 0,
+  "code": "608060405234801561001057600080fd5b506040516101623803806101628339818101604052602081101561003357600080fd5b505160005561011b806100476000396000f3fe6080604052348015600f57600080fd5b506004361060465760003560e01c80632a1afcd914604b57806360fe47b11460635780636d4ce63c14607f578063d09de08a146085575b600080fd5b6051608b565b60408051918252519081900360200190f35b607d60048036036020811015607757600080fd5b50356091565b005b605160d4565b607d60da565b60005481565b6000819055604080513381526020810183905281517ffd28ec3ec2555238d8ad6f9faf3e4cd10e574ce7e7ef28b73caa53f9512f65b9929181900390910190a150565b60005490565b60008054600101905556fea2646970667358221220d4f592ae122f6f75c4ba5b44510f58a7830220b0ee84d41259684fc44fb6255a64736f6c63430006010033",
+  "runtimeBytecode": "6080604052348015600f57600080fd5b506004361060465760003560e01c80632a1afcd914604b57806360fe47b11460635780636d4ce63c14607f578063d09de08a146085575b600080fd5b6051608b565b60408051918252519081900360200190f35b607d60048036036020811015607757600080fd5b50356091565b005b605160d4565b607d60da565b60005481565b6000819055604080513381526020810183905281517ffd28ec3ec2555238d8ad6f9faf3e4cd10e574ce7e7ef28b73caa53f9512f65b9929181900390910190a150565b60005490565b60008054600101905556fea2646970667358221220d4f592ae122f6f75c4ba5b44510f58a7830220b0ee84d41259684fc44fb6255a64736f6c63430006010033",
+  "linkReferences": {},
+  "swarmHash": "ba5b44510f58a7830220b0ee84d41259684fc44fb6255a64736f6c6343000601",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "56600",
+      "executionCost": "infinite",
+      "totalCost": "infinite"
+    },
+    "external": {
+      "get()": "1020",
+      "increment()": "21003",
+      "set(uint256)": "21539",
+      "storedData()": "976"
+    }
+  },
+  "functionHashes": {
+    "get()": "6d4ce63c",
+    "increment()": "d09de08a",
+    "set(uint256)": "60fe47b1",
+    "storedData()": "2a1afcd9"
+  },
+  "filename": "/Users/dhruvinparikh/gbc_tut/Advanced-Smart-Contracts/embark_demo/.embark/contracts/simple_storage.sol",
+  "originalFilename": "contracts/simple_storage.sol",
+  "path": "/Users/dhruvinparikh/gbc_tut/Advanced-Smart-Contracts/embark_demo/contracts/simple_storage.sol",
+  "type": "file",
+  "deploymentAccount": "0x2d23409C8410323b7DA58Af3B04753707D201CBc"
+}
