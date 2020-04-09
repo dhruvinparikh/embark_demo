@@ -1,0 +1,40 @@
+{
+  "name": "embark_demo",
+  "version": "5.2.3",
+  "description": "Demo DApp for Embark",
+  "homepage": "https://dhruvinparikh93.github.io/embark_demo",
+  "scripts": {
+    "test": "embark test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "directory": "dapps/templates/demo",
+    "type": "git",
+    "url": "https://github.com/dhruvinparikh93/embark_demo.git"
+  },
+  "devDependencies": {
+    "bootstrap": "4.3.1",
+    "classnames": "2.2.6",
+    "embark": "^5.2.3",
+    "embark-geth": "^5.2.3",
+    "embark-graph": "^5.2.3",
+    "embark-ipfs": "^5.2.3",
+    "embark-parity": "^5.2.3",
+    "embark-profiler": "^5.2.3",
+    "embark-swarm": "^5.2.3",
+    "embark-whisper-geth": "^5.2.3",
+    "embarkjs": "^5.2.3",
+    "embarkjs-ens": "^5.2.3",
+    "embarkjs-ipfs": "^5.2.3",
+    "embarkjs-swarm": "^5.2.3",
+    "embarkjs-web3": "^5.2.3",
+    "embarkjs-whisper": "^5.2.3",
+    "jquery": "3.4.1",
+    "popper.js": "1.15.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "reactstrap": "8.1.1"
+  }
+}
